@@ -296,6 +296,26 @@ main{
     text-align: center;
     margin-bottom: 113px;
 }
+/* perfect place */
+.perfect-place{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Set a max-width for responsiveness */
+    margin: 0 auto; /* Center horizontally */
+}
+
+video {
+    width: 100%;
+    display: block;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
 /* footer section */
 footer{
     background: rgba(19, 19, 24, 0.05);
@@ -422,8 +442,18 @@ hr{
         height: 300px;
         margin-left: 16px;
     }
+    /* perfect place section */
+    .perfect-place{
+        flex-direction: column;
+    }
+    .perfect-place li{
+        color: #131318;
+        font-size: 1rem;
+        font-weight: 700;
+    }
     /* footer */
     footer{
+        margin-top: 100px;
         /* padding-left: 20px;
         padding-right: 20px; */
     }
