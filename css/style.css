@@ -503,10 +503,18 @@ hr{
         border: 2px solid #FFF;
         background: rgba(255, 255, 255, 0.80);
         backdrop-filter: blur(2.5px);
-        padding: 30px;
-        width: 276px;
-        height: 300px;
+        padding: 10px;
+        width: 250px;
+        height: 360px;
         margin-left: 16px;
+    }
+    
+    .badge-link{
+        font-size: 15.854px;
+
+    }
+    .badge-offer{
+        font-size: 21.138px;
     }
     /* perfect place section */
     .perfect-place{
@@ -527,10 +535,10 @@ hr{
         border-radius: 16px;
         background: #FF5400;
         transform: rotate(-19.628deg);
-        width: 324px;
+        width: 200px;
         position: relative;
-        bottom: 170px;
-        left: 0px;
+        bottom: 125px;
+        left: 60px;
     }
     /* footer */
     footer{
