@@ -413,6 +413,9 @@ hr{
         margin-right: 20px;
         margin-top: 19.2px;
     }
+    .header-content{
+        margin-bottom: 20px;;
+    }
     /* .header-title{
         font-size: 21.543px;
     } */
@@ -433,7 +436,7 @@ hr{
         display: none;
     }
     .dark-bg{
-        height: 60dvh;
+        height: 80dvh;
     }
     .content-title{
         font-size: 22px;
@@ -447,8 +450,8 @@ hr{
     }
     .explore-travel{
         flex-direction: column;
-        margin-left: 24px;
-        margin-right: 24px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .explore-travel input[type="text"]{
         width: 90%;
@@ -474,8 +477,7 @@ hr{
         margin-right: 0px;
     }
     .popular-tours img{
-        width: 370px;
-        height: 342px;
+        width: 100%;
     }
     .section-title{
         font-size: 20px;
