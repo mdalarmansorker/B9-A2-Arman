@@ -27,6 +27,9 @@ header{
     color: rgba(19, 19, 24, 0.50);
 }
 /* Header style */
+#mobile-nav, #nav-checkbox{
+    display: none;
+}
 .title-header{
     display: flex;
     align-items: center;
@@ -47,6 +50,7 @@ header{
 .hambarger-mobile-nav{
     display: none;
 }
+
 .menu-list{
     list-style-type: none;
     text-align: center;
@@ -276,7 +280,8 @@ main{
     padding: 50px;
     width: 500px;
     height: 300px;
-    margin-left: 900px;
+    margin-left: auto;
+    margin-right: 5%;
 }
 .deal-left{
     border-radius: 16px;
@@ -419,11 +424,31 @@ hr{
     /* .header-title{
         font-size: 21.543px;
     } */
+    #navbar{
+        flex-wrap: wrap;
+    }
     .hambarger-mobile-nav{
         display: block;
         height: 24px;
         width: 24px;
+        cursor: pointer;
     }
+    #nav-checkbox{
+        display: none;
+    }
+    #nav-checkbox:checked + .hambarger-mobile-nav::after{
+         
+    }
+    .menu-list{
+        display: none;
+        /* flex: 1; */
+    }
+    #nav-checkbox:checked ~ .menu-list{
+        display: block;    
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    
     .title-logo{
         width: 28.724px;
         height: 33.516px;
@@ -432,9 +457,7 @@ hr{
         display: flex;
         justify-content: space-between;
     }
-    .menu-list{
-        display: none;
-    }
+    
     .dark-bg{
         height: 80dvh;
     }
@@ -504,9 +527,10 @@ hr{
         background: rgba(255, 255, 255, 0.80);
         backdrop-filter: blur(2.5px);
         padding: 10px;
-        width: 250px;
+        width: 80%;
         height: 360px;
-        margin-left: 16px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .badge-link{
@@ -561,6 +585,10 @@ hr{
     .content-title{
         margin-top: 100px;
     }
+    .header-content{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
     /* form explore travel */
     .explore-travel{
         border-radius: 8px;
@@ -588,7 +616,8 @@ hr{
         padding: 50px;
         width: 350px;
         height: 300px;
-        margin-left: 520px;
+        margin-left: auto;
+        margin-right: 8%;
     }
     .deal-left{
         width: 350px;
@@ -615,7 +644,7 @@ hr{
         margin-bottom: 55px;
     }
     .dark-bg{
-        height: 50dvh;
+        height: 100%;
     }
     .explore-travel{
         border-radius: 8px;
@@ -673,6 +702,16 @@ hr{
         width: 350px;
         height: 300px;
         margin-left: 200px;
+    }
+    .deal-left{
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        padding: 50px;
+        width: 350px;
+        height: 300px;
+        margin-left: 50px;
     }
     .perfect-place{
         flex-direction: column;
