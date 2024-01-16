@@ -190,6 +190,52 @@ main{
 .destination-image{
     margin-bottom: 100px;
 }
+/* why choose section */
+.why-choose{
+    text-align: center;
+}
+.card-container{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    width: 573px;
+}
+.card-container img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 32px;
+}
+.card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.card-content{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.card-color2{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card-color3{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+/* Deals and discounts */
+.deals{
+    text-align: center;
+}
 /* Mobile responsive */
 @media screen and (max-width: 600px)
 {
