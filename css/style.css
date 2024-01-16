@@ -236,6 +236,66 @@ main{
 .deals{
     text-align: center;
 }
+.deal1{
+    background-image: url("../Images/Group\ 39.png");
+    border-radius: 16px;
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    margin-top: 49px;
+    background-size: cover;
+    padding-top: 55px;
+    padding-bottom: 56px;
+}
+.deal2{
+    background-image: url("../Images/Group\ 40.png");
+    border-radius: 16px;
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    margin-top: 49px;
+    background-size: cover;
+    padding-top: 55px;
+    padding-bottom: 56px;
+}
+.deal-vanue{
+    display: flex;
+    gap: 20px;
+}
+.deal-price{
+    margin-top: 16px;
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.deal-right{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    width: 500px;
+    height: 300px;
+    margin-left: 900px;
+}
+.deal-left{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+}
+.deal1 button, .deal2 button{
+    margin-top: 24px;
+}
+#packages{
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 113px;
+}
 /* Mobile responsive */
 @media screen and (max-width: 600px)
 {
@@ -316,5 +376,25 @@ main{
     }
     .images{
         flex-direction: column;
+    }
+    /* deals */
+    .deal1{
+        padding-top: 150px;
+    }
+    .deal2{
+        padding-top: 150px;
+    }
+    .deal-vanue{
+        flex-wrap: wrap;
+    }
+    .deal-right, .deal-left{
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        padding: 30px;
+        width: 276px;
+        height: 300px;
+        margin-left: 16px;
     }
 }
