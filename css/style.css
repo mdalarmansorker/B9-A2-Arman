@@ -12,6 +12,7 @@ body{
     text-align: center;
     font-size: 16px;
     font-weight: 700;
+    width: 100%;
 }
 header{
     margin-left: 135px;
@@ -113,8 +114,9 @@ nav li{
     gap: 24px;
     align-items: center;
     justify-content: center;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .explore-travel input[type="text"], select{
     border-radius: 8px;
@@ -126,7 +128,7 @@ nav li{
     padding-bottom: 16px;*/
     padding-left: 16px; 
     padding-right: 16px;
-    width: 174px;
+    width: 100%;
     height: 52px;
     border-style: none;
 }
@@ -202,7 +204,7 @@ main{
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 32px;
-    width: 573px;
+    width: 40%;
 }
 .card-container img{
     width: 64px;
@@ -511,6 +513,9 @@ hr{
     .images{
         flex-direction: column;
     }
+    .card-container{
+        width: 100%;
+    }
     /* deals */
     .deal1{
         padding-top: 150px;
@@ -589,6 +594,9 @@ hr{
         margin-left: 50px;
         margin-right: 50px;
     }
+    .dark-bg{
+        width: 100%;
+    }
     /* form explore travel */
     .explore-travel{
         border-radius: 8px;
@@ -598,8 +606,12 @@ hr{
         gap: 24px;
         align-items: center;
         justify-content: center;
-        margin-left: 100px;
-        margin-right: 100px;
+        width: 90%;
+        /* margin-left: 100px;
+        margin-right: 100px; */
+    }
+    .popular-tours{
+        flex-direction: column;
     }
     .card-container{
         border-radius: 16px;
@@ -619,8 +631,14 @@ hr{
         margin-left: auto;
         margin-right: 8%;
     }
+    .perfect-place{
+        flex-direction: column;
+    }
     .deal-left{
         width: 350px;
+    }
+    .newsletter{
+        flex-direction: column;
     }
     .newsletter-badge{
         left: 225px;
@@ -631,7 +649,7 @@ hr{
         color: #FFF;
         font-size: 4rem;
         font-weight: 800;
-        margin-top: 100px;
+        margin-top: 8%;
         margin-bottom: 30px;
     }
     .header-content{
@@ -644,7 +662,7 @@ hr{
         margin-bottom: 55px;
     }
     .dark-bg{
-        height: 100%;
+        height: calc(100% + 40px);
     }
     .explore-travel{
         border-radius: 8px;
@@ -654,6 +672,7 @@ hr{
         gap: 16px;
         align-items: center;
         justify-content: center;
+        width: 90%;
         /* margin-left: 100px;
         margin-right: 100px; */
     }
@@ -667,7 +686,7 @@ hr{
         padding-bottom: 16px;*/
         padding-left: 16px; 
         /* padding-right: 16px; */
-        width: 100px;
+        width: 100%;
         height: 52px;
         border-style: none;
     }
@@ -712,6 +731,9 @@ hr{
         width: 350px;
         height: 300px;
         margin-left: 50px;
+    }
+    .card-container{
+        width: 100%;
     }
     .perfect-place{
         flex-direction: column;
