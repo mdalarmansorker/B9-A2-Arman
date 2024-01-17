@@ -464,19 +464,18 @@ hr{
         height: 80dvh;
     }
     .content-title{
-        font-size: 22px;
+        font-size: 30px;
         margin-top: 32px;
         margin-bottom: 24px;
     }
     .header-content{
-        font-size: 14px;
+        font-size: 18px;
         margin-left: 15px;
         margin-right: 15px;
     }
     .explore-travel{
         flex-direction: column;
-        margin-left: 20px;
-        margin-right: 20px;
+        width: 85%;
     }
     .explore-travel input[type="text"]{
         width: 90%;
